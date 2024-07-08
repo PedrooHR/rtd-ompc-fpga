@@ -1,22 +1,25 @@
-Welcome to Lumache's documentation!
+OMPC FPGA
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+.. _overview:
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+OpenMP Cluster (OMPC) FPGA is a framework that enables application developers to include FPGA acceleration by using only OpenMP standard directive, abstracting all of the FPGA handling.
+
+This framework target AMD Alveo\ :sup:`TM` Boards, which are FPGA boards for High Performance Computing.
+
 
 .. note::
 
    This project is under active development.
 
-Contents
---------
+`Try it now! It only takes a few minutes! <quickstart.html>`_ 
+
+
 
 .. toctree::
+   :hidden:
 
-   usage
-   api
+   quickstart
+   xclbins
+   communication
+   exchange
